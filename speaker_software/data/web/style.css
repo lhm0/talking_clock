@@ -1,0 +1,132 @@
+:root {
+  color-scheme: light;
+  --bg: #f7f4ee;
+  --ink: #1a1a1a;
+  --muted: #5b5b5b;
+  --accent: #1f5c4d;
+  --accent-strong: #17463b;
+  --card: #fffaf1;
+  --border: #e8dfd1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #fff7e6, var(--bg));
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 20px 64px;
+  display: grid;
+  gap: 24px;
+}
+
+.hero .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: clamp(2rem, 2.5vw + 1.5rem, 3rem);
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.sub {
+  font-size: 1rem;
+  color: var(--muted);
+  max-width: 560px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 6px 16px rgba(24, 20, 16, 0.08);
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: var(--muted);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.primary {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.primary:hover {
+  background: var(--accent-strong);
+  transform: translateY(-1px);
+}
+
+.status {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.battery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.language {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primary.active {
+  background: #0f3a30;
+}
+
+@media (max-width: 520px) {
+  .wrap {
+    padding: 32px 16px 48px;
+  }
+  .card {
+    padding: 18px;
+  }
+}

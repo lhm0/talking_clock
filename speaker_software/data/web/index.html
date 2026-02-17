@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SpeakingClock – Konfiguration</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="hero">
+        <p class="eyebrow">SpeakingClock</p>
+        <h1>Device setup</h1>
+      </header>
+
+      <section class="card">
+        <h2>WiFi</h2>
+        <button id="wifi-start" class="primary">Configure WiFi</button>
+        <button id="wifi-clear" class="primary hidden">Delete WiFi credentials</button>
+        <p id="status" class="status" aria-live="polite"></p>
+      </section>
+
+      <section class="card">
+        <h2>RTC</h2>
+        <button id="rtc-start" class="primary">Set RTC</button>
+        <p id="rtc-status" class="status" aria-live="polite"></p>
+        <div class="row">
+          <span>RTC time (UTC)</span>
+          <span id="rtc-time">--</span>
+        </div>
+        <div class="row">
+          <span>Browser time (UTC)</span>
+          <span id="browser-time">--</span>
+        </div>
+        <div class="row">
+          <span>Difference</span>
+          <span id="time-diff">--</span>
+        </div>
+        <div class="row">
+          <span>Timezone</span>
+          <span id="tz-info">--</span>
+        </div>
+        <div class="row">
+          <span>DST rule</span>
+          <span id="dst-info">--</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Battery</h2>
+        <div class="battery">
+          <span>Battery voltage</span>
+          <span id="battery-value">-- V</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Language</h2>
+        <div class="language">
+          <button id="lang-de" class="primary">German</button>
+          <button id="lang-en" class="primary">English</button>
+        </div>
+        <p id="lang-status" class="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

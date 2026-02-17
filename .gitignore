@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Finder / Spotlight / Time Machine
+._*
+.Spotlight-V100
+.Trashes
+.Trashes/*
+.fseventsd
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+build/
+bin/
+obj/
+.pio/
+*.o
+*.elf
+*.hex.git_backup/
