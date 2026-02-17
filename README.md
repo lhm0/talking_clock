@@ -7,6 +7,9 @@ This repository is part of an open-source project for a simple, battery-powered 
 The device announces the current time at the press of a button.  
 If the button is pressed a second time within a short time window, it also announces the date.
 
+Watch the full project video on YouTube:  
+[Talking Clock – Demo & Build](https://youtu.be/vuX4cK3g9_s?si=J2-5so-r-MG_IsnX)
+
 The main design goals of this project are:
 
 - A **minimal and accessible user interface**
