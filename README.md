@@ -10,6 +10,20 @@ If the button is pressed a second time within a short time window, it also annou
 Watch the full project video on YouTube:  
 [Talking Clock – Demo & Build](https://youtu.be/vuX4cK3g9_s?si=J2-5so-r-MG_IsnX)
 
+## Part of an Accessible Devices Collection
+
+This repository is part of a small collection of **minimalistic, accessibility-focused devices for visually impaired users**. All projects follow a similar philosophy: simple operation, tactile or acoustic feedback, and a strong focus on usability and low power consumption.
+
+The currently available devices in this collection are:
+
+- **[DAB+ Radio](https://github.com/lhm0/DAB_minimalist)** – A minimalist, easy-to-use DAB+ radio  
+- **[Talking Clock](https://github.com/lhm0/talking_clock)** – This project: a clock that announces the time acoustically  
+- **[Accessible IR Remote Control](https://github.com/lhm0/accessible_ir_remote)** – A tactile, low-power TV remote control  
+
+All projects are designed to be practical, easy to reproduce, and suitable for everyday use by visually impaired users.
+
+## Design Goals
+
 The main design goals of this project are:
 
 - A **minimal and accessible user interface**
