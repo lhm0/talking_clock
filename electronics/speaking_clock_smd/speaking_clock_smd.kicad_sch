@@ -1,0 +1,121 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ca0cd34c-eb99-4561-a785-570e69c6bef5")
+	(paper "A4")
+	(lib_symbols)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 118.11 45.72 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "5c106819-1f9d-4265-8583-e8e981b3c24a")
+	)
+	(text "peripherals"
+		(exclude_from_sim no)
+		(at 120.142 79.502 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.635)
+			)
+		)
+		(uuid "df8f0b6d-2708-40e1-b3d9-0665524b4d22")
+	)
+	(sheet
+		(at 63.5 34.925)
+		(size 116.84 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8899da43-2b01-4e40-8f05-46eb4ece61f4")
+		(property "Sheetname" "ESP32-S3 microcontroller"
+			(at 63.5 34.2134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_S3_MCU.kicad_sch"
+			(at 63.5 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "speaking_clock_smd"
+				(path "/ca0cd34c-eb99-4561-a785-570e69c6bef5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 69.215)
+		(size 116.205 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1967fab-b6a9-4767-83b5-cdb09e12af5d")
+		(property "Sheetname" "peripherals"
+			(at 63.5 68.5034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 63.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "speaking_clock_smd"
+				(path "/ca0cd34c-eb99-4561-a785-570e69c6bef5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
