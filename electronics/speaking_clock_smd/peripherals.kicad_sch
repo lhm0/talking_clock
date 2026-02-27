@@ -10184,7 +10184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "my_footprints:BatteryHolderCR2032"
+		(property "Footprint" "my_footprints:Keytone_CR2032_holder"
 			(at 219.964 113.03 90)
 			(effects
 				(font
@@ -10204,6 +10204,15 @@
 		)
 		(property "Description" "Single-cell battery"
 			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 218.44 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +11303,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318884"
+		(property "LCSC" ""
 			(at 116.84 77.47 90)
 			(effects
 				(font
@@ -11346,7 +11355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 161.29 147.32 0)
 			(effects
 				(font
@@ -11718,6 +11727,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C382329"
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12534,6 +12552,15 @@
 			)
 		)
 		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C910544"
 			(at 232.41 60.96 0)
 			(effects
 				(font
